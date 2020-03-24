@@ -9,6 +9,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'snippets.apps.SnippetsConfig',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
